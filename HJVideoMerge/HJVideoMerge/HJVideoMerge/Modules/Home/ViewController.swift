@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     private let oK = "OK"
     private let saveVideo = "Save"
     private let videoAlert = "Select only two video"
-    private let imageAlert = "Select more then 5 images"
+    private let imageAlert = "Select more then 6 images"
     
     override func viewDidLoad() {
         super.viewDidLoad()
