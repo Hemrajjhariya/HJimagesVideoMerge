@@ -76,6 +76,7 @@ extension ViewController: TatsiPickerViewControllerDelegate {
         }else{
             
             guard assets.count > 6 else {
+                LoadingView.unlockView()
                 pickerViewController.dismiss(animated: true, completion: nil)
                 self.createAlertView(message: self.imageAlert)
                 return
